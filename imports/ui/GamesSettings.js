@@ -3,6 +3,10 @@
 import React, { Component } from 'react'
 
 class GamesSettings extends Component {
+  
+  // Laura: Podrían poner otra cosa en lugar del id del juego, porque es un poco confuso ver tantos caracteres diferentes.
+  //Tal vez la fecha de inicio del juego daría más información de que juego se trata.
+  
   renderGames () {
     return this.props.games.map(game => {
       return (
