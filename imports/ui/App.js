@@ -176,3 +176,5 @@ export default createContainer(() => {
     showingGame: showingGame
   }
 }, App)
+
+//Me parece muy chevere que tengan todo tan organizado, es fácil encontrar las funciones que llaman u otras clases 
